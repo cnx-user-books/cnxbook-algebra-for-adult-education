@@ -1,0 +1,296 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Scatterplots and Linear Models</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m79393</md:content-id>
+  <md:title>Scatterplots and Linear Models</md:title>
+  <md:abstract>By the end of this section, you will be able to:
+<list>
+<item>Distinguish between dependent and independent variables.</item>
+<item>Visually recognize positive versus negative relationships.</item>
+<item>Visually recognize outliers.</item>
+<item>Visually recognize strong versus weak versus no correlation between variables on a scatterplot.</item>
+<item>Graphically determine a Line of Best Fit from a scatterplot.</item>
+<item>Distinguish between interpolation and extrapolation.</item>
+<item>Use a Line of Best Fit for interpolation and extrapolation.</item>
+</list></md:abstract>
+  <md:uuid>99691214-ffd9-4930-80cf-384532fd4902</md:uuid>
+</metadata>
+
+<content>
+    <para id="eip-435">One way to display the relation between two variables <m:math><m:mi>x</m:mi></m:math> and <m:math><m:mi>y</m:mi></m:math> is with a table. A more visual way is to graph the ordered pairs. A <emphasis>scatterplot</emphasis> is the name <emphasis>statisticians</emphasis> give to this type of graph. The following examples illustrates a table and its corresponding scatterplot.</para><example id="eip-613"><title>Dropped Ball</title><para id="eip-733">A ball is dropped and how high off the ground it is when it is dropped and how high it bounces are measured. Those values are an ordered pair: (release height, bounce height). If the ball is dropped at various heights there will be many ordered pairs. The bounce height depends on the release height. We say that the bounce height is the <emphasis>dependent variable</emphasis> because its value depends on the release height which is the <emphasis>independent variable</emphasis>. When we make a scatterplot it is normal to put the independent variable on the X-axis and the dependent variable on the Y-axis.</para>
+
+<figure id="eip-idm962656032"><subfigure id="eip-idm1111282240">
+<table id="eip-82" summary="Chart of two columns, for release height and bounce height. For the left column, release height, the values starting from the top are 300 cm, 270 cm, 240 cm, 210 cm, 180 cm, and 150 cm. For the right column, bounce height, the values starting from the top are 210 cm, 189 cm, 168 cm, 147 cm, 126 cm, and 105 cm.">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry>Release Height</entry>
+    <entry>Bounce Height</entry>
+  </row>
+  <row>
+    <entry>300 cm</entry>
+    <entry>210 cm</entry>
+  </row>
+  <row>
+    <entry>270 cm</entry>
+    <entry>189 cm</entry>
+  </row>
+  <row>
+    <entry>240 cm</entry>
+    <entry>168 cm</entry>
+  </row>
+  <row>
+    <entry>210 cm</entry>
+    <entry>147 cm</entry>
+  </row>
+  <row>
+    <entry>180 cm</entry>
+    <entry>126 cm</entry>
+  </row>
+  <row>
+    <entry>150 cm</entry>
+    <entry>105 cm</entry>
+  </row>
+</tbody>
+
+</tgroup><caption>Dropped Ball Height</caption>
+</table>
+<caption>Table showing bounce height (in cm).</caption>
+</subfigure>
+<subfigure id="eip-idm1130306832">
+  <media id="eip-idm360856560" alt="This is a scatterplot for the data provided. The x-axis represents the release height in cm and the y-axis represents the bounce height in cm. There are four points plotted, at (150, 105), (180, 126), (210, 147), (240, 168), (270,189), (300, 210)."><image src="../../media/scatterplot2.jpg" mime-type="image/jpg" print-width="2.5in" width="380"/></media>
+  <caption>Scatterplot showing bounce height (in cm).</caption>
+</subfigure>
+</figure></example><example id="element-777"><title>Mobile Commerce</title><para id="element-622">In Europe and Asia, m-commerce is popular. M-commerce users have special mobile phones that work like electronic wallets as well as provide phone and Internet services. Users can do everything from paying for parking to buying a TV set or soda from a machine to banking to checking sports scores on the Internet. For the years 2000 through 2004, was 
+there a relationship between the year and the number of m-commerce users? Construct a scatter plot. Let <m:math><m:mi>x</m:mi></m:math> = the year and let <m:math><m:mi>y</m:mi></m:math> = the number of m-commerce users, in millions.</para><figure id="linrgs_scater1"><subfigure id="id1171451634341">
+<table id="element-478" summary="">
+<tgroup cols="2"><thead>
+  <row>
+    <entry><m:math><m:mi>x</m:mi></m:math> (year)</entry>
+    <entry><m:math><m:mi>y</m:mi></m:math> (# of users)</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry>2000</entry>
+    <entry>0.5</entry>
+  </row>
+  <row>
+    <entry>2002</entry>
+    <entry>20.0</entry>
+  </row>
+  <row>
+    <entry>2003</entry>
+    <entry>33.0</entry>
+  </row>
+  <row>
+    <entry>2004</entry>
+    <entry>47.0</entry>
+  </row>
+</tbody>
+
+
+
+</tgroup>
+
+</table>
+<caption>Table showing the number of m-commerce users (in millions) by year.</caption>
+</subfigure>
+<subfigure id="id1171453954465">
+  <media id="id1171452159644" alt="This is a scatterplot for the data provided. The x-axis represents the year and the y-axis represents the number of m-commerce users in millions. There are four points plotted, at (2000, 0.5), (2002, 20.0), (2003, 33.0), (2004, 47.0)."><image src="../../media/fig-ch12_04_01.jpg" mime-type="image/jpeg" print-width="2.5in" width="380"/></media>
+  <caption>Scatterplot showing the number of m-commerce users (in millions) by year.</caption>
+</subfigure></figure></example><note id="fs-idm16826784" class="statistics try">
+<label/>
+<title>Try It</title>
+
+<exercise id="eip-339">
+<problem id="eip-740">
+  <para id="eip-489">Amelia plays basketball for her high school. She wants to improve to play at the college level. She notices that the number of points she scores in a game goes up in response to the number of hours she practices her jump shot each week. She records the following data:</para>
+<table id="eip-idp1116432" summary="">
+<tgroup cols="2">
+<thead><row><entry><emphasis effect="italics">X</emphasis> (hours practicing jump shot)</entry>	<entry><emphasis effect="italics">Y</emphasis> (points scored in a game)</entry></row></thead>
+<tbody>
+<row><entry>5</entry>	<entry>15</entry></row>
+<row><entry>7</entry>	<entry>22</entry></row>
+<row><entry>9</entry>	<entry>28</entry></row>
+<row><entry>10</entry>	<entry>31</entry></row>
+<row><entry>11</entry>	<entry>33</entry></row>
+<row><entry>12</entry>	<entry>36</entry></row>
+</tbody>
+</tgroup>
+</table>
+<para id="eip-idm36661536">Construct a scatterplot and state if what Amelia thinks appears to be true.</para></problem>
+<solution id="eip-859">
+  <figure id="fs-idp94235296"><media id="eip-idp858304" alt="This is a scatter plot for the data provided. The x-axis is labeled in increments of 2 from 0 - 16. The y-axis is labeled in increments of 5 from 0 - 35." display="block">
+  <image mime-type="image/jpeg" src="../../media/CNX_Stats_C012_M04_tryit001.jpg" print-width="3.5in" width="380"/>
+</media></figure><para id="eip-idp81081904">Yes, Amelia’s assumption appears to be correct. The number of points Amelia scores per game goes up when she practices her jump shot more.</para>
+</solution>
+</exercise>
+
+</note>
+
+<para id="element-83">A scatterplot shows the <emphasis>direction</emphasis> of a relationship between the variables. A clear direction happens when there is either:
+<list id="list1" list-type="bulleted">
+<item>High values of one variable occurring with high values of the other variable or low values of one variable occurring with low values of the other variable.</item>
+<item>High values of one variable occurring with low values of the other variable.</item>
+</list></para><para id="element-708">When you look at a scatterplot, you want to notice the <emphasis>overall pattern</emphasis> and any <emphasis>deviations</emphasis> from the pattern. The following scatterplot examples illustrate these concepts.</para>
+
+<figure id="lingrgs10"><media id="id1171450550347" alt="The first graph is a scatter plot with 6 points plotted. The points form a pattern that moves upward to the right, almost in a straight line. The second graph is a scatter plot with the same 6 points as the first graph. A 7th point is plotted in the top left corner of the quadrant. It falls outside the general pattern set by the other 6 points."><image src="../../media/fig-ch12_04_02.jpg" mime-type="image/jpeg" print-width="3.5in" width="380"/>
+</media></figure><figure id="lingrgs20"><media id="id1171453496318" alt="The first graph is a scatter plot with 6 points plotted. The points form a pattern that moves downward to the right, almost in a straight line. The second graph is a scatter plot of 8 points. These points form a general downward pattern, but the point do not align in a tight pattern."><image src="../../media/fig-ch12_04_03.jpg" mime-type="image/jpeg" print-width="3.5in" width="380"/>
+</media></figure><figure id="lingrgs30"><media id="id1171454842074" alt="The first graph is a scatter plot of 7 points in an exponential pattern. The pattern of the points begins along the x-axis and curves steeply upward to the right side of the quadrant. The second graph shows a scatter plot with many points scattered everywhere, exhibiting no pattern.">
+<image src="../../media/fig-ch12_04_04.jpg" mime-type="image/jpeg" print-width="3.5in" width="380"/>
+</media></figure><para id="element-243">The scatterplot in figure 5a above is an exponential growth pattern. It is an example of a pattern that is not linear. 
+<newline/>
+<newline/>
+Linear patterns are quite common. The linear relationship is strong if the points are close to a straight line, except in the case of a horizontal line where there is no relationship. If we think that the points show a linear relationship, we can draw a line on the scatterplot that is reasonable close to almost all of the points. In a more advanced class, one would use an exact technique called <emphasis>regression</emphasis> to determine the formula for this line. The line is called the <emphasis>regression line</emphasis> or the <emphasis>Line of Best Fit</emphasis>. This line can be used to make predictions for the dependent variable based on the value of the independent variable.</para><para id="eip-50"><title>Interpolation and Extrapolation</title>Once a line has been drawn showing the linear relationship, the equation for the line can be determined using techniques explained earlier in this chapter. Rarely will the line be a perfect fit and go through all of the points. The line is a <emphasis>model</emphasis> that should give a close estimate of the dependent variable for values of the independent variable that may not be present in the data.<newline/>
+<newline/>When a value of the independent variable lies between two values of the independent variable already in the data this is called <emphasis>interpolation.</emphasis><newline/>
+When the value of the independent variable is less than the least of the independent variable already in the data or greater than the greatest of the independent variable already in the data this is called <emphasis>extrapolation.</emphasis><newline/>
+<newline/>Models aren't guaranteed to accurately predict the dependent variable. As a practical matter, interpolated values are much more accurate than extrapolated values.</para><para id="eip-600"><title>Dropped Ball part 2</title>After drawing a line through the data it was determined that the equation for the line was y = 0.7x. Use this equation to predict the height of the bounce when the drop height is 250 cm. Is this interpolation or extrapolation?<newline/>
+<newline/>
+y = 0.7 (250 cm) = 175 cm. This is interpolation because 250 cm is between 270 cm and 240 cm.<newline/>
+Notice that 175 cm is between the bounce height for 270 cm (189 cm) and 240 cm (168 cm) so this makes sense.</para><section id="eip-407" class="summary">
+<title>Section Review</title><para id="fs-idm18585216">Scatterplots are particularly helpful graphs when we want to see if there is a linear relationship among data points. They indicate both the direction of the relationship between the <m:math><m:mi>x</m:mi></m:math> variables and the <m:math><m:mi>y</m:mi></m:math> variables, and the strength of the relationship.<newline/>
+<newline/>
+If a linear relationship exists between the independent and dependent variables then it is appropriate to find a linear equation that relates the two variables. This equation can be used for interpolation and extrapolation.</para></section>
+
+
+<section id="eip-98" class="practice">
+<exercise id="eip-379">
+<problem id="eip-474">
+  <para id="eip-780">Does the scatterplot appear linear? Strong or weak? Positive or negative?<newline/>
+Draw a line through the data and estimate the equation. Based on your equation, what value should you expect for y when x = 5? Does this make sense in relation to other points on the graph?</para><figure id="fs-idp130114112"><media id="eip-idm143400624" alt="This is a scatterplot with several points plotted in the first quadrant. The points form a clear pattern, moving upward to the right. The points do not line up , but the overall pattern can be modeled with a line." display="block">
+  <image mime-type="image/jpeg" src="../../media/CNX_Stats_C012_M04_item001.jpg" print-width="3.5in" width="380"/>
+</media></figure></problem>
+<solution id="eip-206">
+  <para id="eip-989">The data appear to be linear with a strong, positive correlation.<newline/>
+The answers for the equation may differ since we are not doing this exactly. One possible equation is y = 0.75x +0.5.<newline/>
+When x = 5, y = 0.75 * 5 + 0.5. y = 4.25.</para></solution>
+</exercise>
+
+<exercise id="eip-281"><problem id="eip-986">
+  <para id="eip-542">Does the scatterplot appear linear? Strong or weak? Positive or negative?<newline/>
+If appropriate, draw a line through the data and estimate the equation. Based on your equation, what value should you expect for y when x = 5? Does this make sense in relation to other points on the graph?</para><figure id="fs-idp68059856"><media id="eip-idp14193472" alt="This is a scatterplot with several points plotted in the first quadrant. The points move downward to the right. The overall pattern can be modeled with a line, but the points are widely scattered." display="block">
+  <image mime-type="image/jpeg" src="../../media/CNX_Stats_C012_M04_item002.jpg" print-width="3.5in" width="380"/>
+</media></figure></problem>
+<solution id="eip-idm399464816">
+  <para id="eip-idm464242176">The data appear to be linear with a weak, negative correlation.<newline/>
+The slope of the line will be negative and the y-intercept will be greater than 7. Answer may vary.</para></solution></exercise><exercise id="eip-781">
+<problem id="eip-746">
+  <para id="eip-162">Does the scatterplot appear linear? Strong or weak? Positive or negative?</para><figure id="fs-idp63135408"><media id="eip-idp1376736" alt="This is a scatter plot with several points plotted all over the first quadrant. There is no pattern." display="block">
+  <image mime-type="image/jpeg" src="../../media/CNX_Stats_C012_M04_item003.jpg" print-width="3.5in" width="380"/>
+</media></figure></problem>
+
+<solution id="eip-921">
+  <para id="eip-529">The data appear to have no correlation so drawing in a line and obtaining an equation is not appropriate.</para></solution>
+</exercise>
+</section>
+<para id="eip-257"><title>Media Resources</title>https://www.mathsisfun.com/data/scatter-xy-plots.html</para><section id="fs-idm75649888" class="free-response">
+<title>Homework</title>
+<exercise id="fs-idp128138576"><problem id="fs-idp35640784">
+<para id="fs-idp63162736">The Gross Domestic Product Purchasing Power Parity is an indication of a country’s currency value compared to another country. The following table shows the GDP PPP of Cuba as compared to US dollars. Construct a scatterplot of the data.<newline/>
+If appropriate, draw a line through the data and estimate the equation.</para><table id="fs-idm59733200" summary="..">
+<title/>
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+<entry>Year</entry>
+<entry>Cuba’s PPP </entry>
+<entry>Year</entry>
+<entry>Cuba’s PPP</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>1999</entry>
+<entry>1,700</entry>
+<entry>2006</entry>
+<entry>4,000</entry>
+</row>
+<row>
+<entry>2000</entry>
+<entry>1,700</entry>
+<entry>2007</entry>
+<entry>11,000</entry>
+</row>
+<row>
+<entry>2002</entry>
+<entry>2,300</entry>
+<entry>2008</entry>
+<entry>9,500</entry>
+</row>
+<row>
+<entry>2003</entry>
+<entry>2,900</entry>
+<entry>2009</entry>
+<entry>9,700</entry>
+</row>
+<row>
+<entry>2004</entry>
+<entry>3,000</entry>
+<entry>2010</entry>
+<entry>9,900</entry>
+</row>
+<row>
+<entry>2005</entry>
+<entry>3,500</entry>
+<entry/>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+</problem>
+<solution id="eip-idm269369744">
+<para id="eip-idm520520848">Solutions may vary. 2007 may be considered an outlier. If so, it would be excluded from the data. The results below are calculated using a spreadsheet program. Drawn solutions will not have this level of accuracy.<newline/>
+<newline/>Without excluding 2007, the regression line is : y = 919x -1965.
+<newline/>Excluding 2007, the regression line is y = 849.52x - 1936.
+<newline/>Notice that with the outlier excluded the Line of Best Fit is less steep and the Y-intercept is closer to the origin.
+</para></solution></exercise><exercise id="fs-idm75154176"><problem id="fs-idm56634624">
+<para id="fs-idp103485488">The following table shows the poverty rates and cell phone usage in the United States. Construct a scatterplot of the data.<newline/>
+If appropriate, draw a line through the data and estimate the equation. What value does your equation estimate for years 2006 and 2012? Which of these estimates is more likely to be accurate?</para><table id="fs-idm6414736" summary="..">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry>Year</entry>
+<entry>Poverty Rate</entry>
+<entry>Cellular Usage per Capita</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>2003</entry>
+<entry>12.7</entry>
+<entry>54.67</entry>
+</row>
+<row>
+<entry>2005</entry>
+<entry>12.6</entry>
+<entry>74.19</entry>
+</row>
+<row>
+<entry>2007</entry>
+<entry>12</entry>
+<entry>84.86</entry>
+</row>
+<row>
+<entry>2009</entry>
+<entry>12</entry>
+<entry>90.82</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</problem>
+<solution id="eip-idm686779808">
+<para id="eip-idm667525600">Assume that Poverty Rate is the independent variable and that Cellular Usage per Capita is the dependent variable.<newline/>
+<newline/>Using a spreadsheet the Line of Best Fit is y = -38x + 543. This tells us that as the poverty rate decreases cell usage increases. This is a correlation and doesn't tell us if one of these variables is causing the other.
+</para></solution></exercise></section>
+</content>
+</document>

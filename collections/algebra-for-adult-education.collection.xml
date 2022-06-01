@@ -1,0 +1,124 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col29256</md:content-id>
+    <md:title>Algebra for Adult Education</md:title>
+    <md:language>en</md:language>
+    <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</md:license>
+    <md:uuid>104bb4f1-123d-4533-bf4c-ddd5afe44d32</md:uuid>
+<md:slug>algebra-for-adult-education</md:slug>
+</metadata>
+  <col:content>
+    <col:module document="m77934"/>
+    <col:module document="m77691"/>
+    <col:subcollection>
+      <md:title>Foundations</md:title>
+      <col:content>
+        <col:module document="m63301"/>
+        <col:module document="m76687"/>
+        <col:module document="m76689"/>
+        <col:module document="m76690"/>
+        <col:module document="m76692"/>
+        <col:module document="m76693"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Solving Linear Equations</md:title>
+      <col:content>
+        <col:module document="m63307"/>
+        <col:module document="m76695"/>
+        <col:module document="m76698"/>
+        <col:module document="m76701"/>
+        <col:module document="m76702"/>
+        <col:module document="m76706"/>
+        <col:module document="m76704"/>
+        <col:module document="m76707"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Graphs and Functions</md:title>
+      <col:content>
+        <col:module document="m63316"/>
+        <col:module document="m76672"/>
+        <col:module document="m76675"/>
+        <col:module document="m76677"/>
+        <col:module document="m79393"/>
+        <col:module document="m76682"/>
+        <col:module document="m76678"/>
+        <col:module document="m76680"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Systems of Linear Equations</md:title>
+      <col:content>
+        <col:module document="m60153"/>
+        <col:module document="m76709"/>
+        <col:module document="m76712"/>
+        <col:module document="m76714"/>
+        <col:module document="m76716"/>
+        <col:module document="m76719"/>
+        <col:module document="m76720"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Polynomials</md:title>
+      <col:content>
+        <col:module document="m60186"/>
+        <col:module document="m76729"/>
+        <col:module document="m76723"/>
+        <col:module document="m76721"/>
+        <col:module document="m76726"/>
+        <col:module document="m76724"/>
+        <col:module document="m76727"/>
+        <col:module document="m76728"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Factoring and Quadratics</md:title>
+      <col:content>
+        <col:module document="m60301"/>
+        <col:module document="m76732"/>
+        <col:module document="m76733"/>
+        <col:module document="m76734"/>
+        <col:module document="m76736"/>
+        <col:module document="m76737"/>
+        <col:module document="m76740"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Roots and Radicals</md:title>
+      <col:content>
+        <col:module document="m60303"/>
+        <col:module document="m76742"/>
+        <col:module document="m76744"/>
+        <col:module document="m76743"/>
+        <col:module document="m76747"/>
+        <col:module document="m76749"/>
+        <col:module document="m76751"/>
+        <col:module document="m76752"/>
+        <col:module document="m76753"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Quadratic Equations</md:title>
+      <col:content>
+        <col:module document="m60335"/>
+        <col:module document="m76754"/>
+        <col:module document="m76757"/>
+        <col:module document="m76762"/>
+        <col:module document="m76764"/>
+        <col:module document="m76763"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Exponential Functions</md:title>
+      <col:content>
+        <col:module document="m63454"/>
+        <col:module document="m76671"/>
+        <col:module document="m76669"/>
+        <col:module document="m76667"/>
+      </col:content>
+    </col:subcollection>
+    <col:module document="m78132"/>
+    <col:module document="m78130"/>
+  </col:content>
+</col:collection>
